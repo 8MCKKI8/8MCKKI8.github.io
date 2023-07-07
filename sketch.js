@@ -1,11 +1,22 @@
 function setup() {
   createCanvas(400, 400);
+
+}
+  function wacky(){
+  if (mouseIsPressed)
+fill(0)
+ellipse(mouseX,mouseY,10,10)
+    
+
+function keyPressed(){
+    if(key == 'e'){
+  wacky = true;
+    }
+}
 }
 
 function draw() {
-//background
   background(0, 255, 183)
-  
 //eyes
 fill(255, 255, 87);
 circle (200,200,400);
@@ -28,5 +39,10 @@ describe('white open arc with black outline with top right missing');
 //cheeks
 fill (235, 0, 63)
 circle (60,240,50)
-circle(340,240,50)
+circle(340,240,50);
+ fill(0)
+ellipse(mouseX,mouseY,10,10) 
+
 }
+
+
