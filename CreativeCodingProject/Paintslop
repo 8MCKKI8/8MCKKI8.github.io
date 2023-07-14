@@ -1,0 +1,28 @@
+
+
+function setup(){
+  furby = loadIage ('furby.png')
+
+}
+
+function setup(){
+   createCanvas(windowWidth, windowHeight)
+   bacground (255)
+
+ }
+
+
+ function draw(){
+
+if(mouseIsPressed){
+ ellipse(mouseX,mouseY, 40, 40)
+
+ } 
+
+if(mouseIsPressed){
+ ellipse(mouseX,mouseY, 40, 40)
+
+
+ }
+ }
+function fu
