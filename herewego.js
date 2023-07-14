@@ -319,19 +319,60 @@ function thebeef(){
 	if (keyIsDown(DOWN_ARROW)) {
 		YOUY += 5;
 	}
+	if(keyIsDown(50)){
+		image(customer2,230, 260, 334, 310)
+
+	}
+
+	if(keyIsDown(51)){
+		image(customer3,230, 260, 334, 310)
+
+
+	}
+
+	if(keyIsDown(52)){
+		image(customer4,230, 260, 334, 310)
+	}
+
+		if(keyIsDown(53)){
+		image(customer5,230, 260, 334, 310)
+	}
+
+		if(keyIsDown(54)){
+		image(customer6,230, 260, 334, 310)
+	}
+
+		if(keyIsDown(66)){
+		image(easteregg,230, 260, 334, 310)
+	}
+
+		if(keyIsDown(75)){
+		image(eastereggii,230, 260, 334, 310)
+	}
+
+
+     
+
+
+image(textbox, 232,464,288,98)
+
+
+	}
+
+	
+
+
+
 
   //if(YOUX>=334){ NEED TO FIX WITH TEACHER HELP 
   	//print("OFF")
   //	YOUX = YOUX * speed
 
-}
+
 
 
 //need help  with nymbers 
-function customerbush(){
 
-	
-}
 
 
 
@@ -398,6 +439,8 @@ function keyPressed(){
 		}
 
 
+
+
 	}
 
 
@@ -413,8 +456,13 @@ function keyPressed(){
 
 			return false
 		}
+
+
 	}
 
+
+
+	
 		// if(level == true && textCounter < script2.length-1){
 		// 	// if(textCounter == 3){
 		// 	// 	bilbyBool = false
@@ -425,8 +473,6 @@ function keyPressed(){
 
 		// 	return false
 		// }
-
-textCounter
 
 		// if(key == 'z'){
 		// //going through convo 1 array
@@ -475,10 +521,7 @@ textCounter
 		}
 
 
-		if(theBeefBool == true){
-			if(key == '9'){
-
-			}
+		
 		}
 
 		// if(customerbushBool == true){
@@ -488,9 +531,6 @@ textCounter
 		// 	} 
 
 
-
-		// 	if(key == '2'){
-		// 		image(customer2,230, 260, 334, 310 )
 
 		// 	}
 		// 	image(customer2,230, 260, 334, 310 )
@@ -542,7 +582,7 @@ textCounter
 
 		
 
-	}
+	
 
 	// function customerbush(){
 
@@ -684,3 +724,8 @@ textCounter
 	// function headphonemusic(){
 	// 	cursedcoldplay.play()
 	// }
+
+
+
+
+			
